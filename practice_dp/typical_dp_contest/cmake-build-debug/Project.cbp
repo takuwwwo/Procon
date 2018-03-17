@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_a">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_a"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_a/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_a/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_b">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_b"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_b/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_b/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_c">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_c"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_c/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_c/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_d">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_d"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_d/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_d/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_e">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_e" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_e"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_e/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_e" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_e/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_f">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_f" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_f"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_f/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_f" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_f/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_i">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_i" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_i"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_i/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_i" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_i/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_g">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_g" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_g"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_g/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_g" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_g/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_h">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_h" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_h"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Typical_DP_Contest_h/fast">
+				<Option output="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Typical_DP_Contest_h" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 Typical_DP_Contest_h/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/a.cc">
+			<Option target="Typical_DP_Contest_a"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/b.cc">
+			<Option target="Typical_DP_Contest_b"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/c.cc">
+			<Option target="Typical_DP_Contest_c"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/d.cpp">
+			<Option target="Typical_DP_Contest_d"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/e.cpp">
+			<Option target="Typical_DP_Contest_e"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/f.cpp">
+			<Option target="Typical_DP_Contest_a"/>
+			<Option target="Typical_DP_Contest_f"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/g.cpp">
+			<Option target="Typical_DP_Contest_a"/>
+			<Option target="Typical_DP_Contest_g"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/h.cpp">
+			<Option target="Typical_DP_Contest_a"/>
+			<Option target="Typical_DP_Contest_h"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/i.cpp">
+			<Option target="Typical_DP_Contest_a"/>
+			<Option target="Typical_DP_Contest_i"/>
+		</Unit>
+		<Unit filename="/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

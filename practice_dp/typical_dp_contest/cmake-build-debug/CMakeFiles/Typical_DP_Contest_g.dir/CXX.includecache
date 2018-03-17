@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/takuo/Desktop/procon/practice_dp/typical_dp_contest/g.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+string
+-
+queue
+-
+limits.h
+-
+

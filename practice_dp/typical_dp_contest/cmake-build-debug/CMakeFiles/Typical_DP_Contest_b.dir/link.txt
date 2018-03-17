@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/Typical_DP_Contest_b.dir/b.cc.o  -o Typical_DP_Contest_b 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/takuo/Desktop/procon/atcoder/ARC079/d.cpp
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+queue
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/Typical_DP_Contest_a.dir/a.cc.o CMakeFiles/Typical_DP_Contest_a.dir/f.cpp.o CMakeFiles/Typical_DP_Contest_a.dir/g.cpp.o CMakeFiles/Typical_DP_Contest_a.dir/h.cpp.o CMakeFiles/Typical_DP_Contest_a.dir/i.cpp.o  -o Typical_DP_Contest_a 

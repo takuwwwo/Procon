@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ARC083.dir/main.cpp.o  -o ARC083 

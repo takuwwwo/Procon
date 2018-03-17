@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/ARC079_d.dir/d.cpp.o  -o ARC079_d 

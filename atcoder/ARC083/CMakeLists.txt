@@ -1,0 +1,5 @@
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+add_executable(ARC083C c.cpp)
+add_executable(ARC083D d.cpp)
+add_executable(ARC083E e.cpp)
+add_executable(ARC083F f.cpp)

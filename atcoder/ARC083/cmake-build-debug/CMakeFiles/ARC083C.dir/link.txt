@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/ARC083C.dir/c.cpp.o  -o ARC083C 
