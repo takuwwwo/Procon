@@ -1,9 +1,14 @@
+#include<iostream>
+#include<map>
+
+using namespace std;
+
 typedef long long ll;
-typedef pair<int, int> P;
+typedef pair<ll, ll> P;
 
 const ll mod = 1000000007;
-ll fact[200200];
-ll invfact[200200];
+ll fact[1500];
+ll invfact[1500];
 
 inline ll take_mod(ll a){
     return (a % mod + mod) % mod;
@@ -58,4 +63,39 @@ void make_invfact(ll n){
 
 ll comb(ll n, ll k){
     return mul(mul(fact[n], invfact[n-k]), invfact[k]);
+}
+
+ll dp[1010][1010];
+
+int main(){
+  int N, A, B, C, D;
+  cin >> N >> A >> B >> C >> D;
+  make_fact(N+10);
+  make_invfact(N+10);
+
+  for(int i = 0; i < 1010; i++){
+    for(int j = 0; j < 1010; j++){
+      dp[i][j] = 0;
+    }
+  }
+  dp[A-1][0] = 1;
+
+  for(int j = A; j <= B; j++){
+    for(int i = 0; i <= N; i++){
+      ll c = 1LL;
+      int n = N-i;
+      ll x = dp[j-1][i];
+      for(int k = 1; k <= min(i/j, D); k++){
+        c = mul(c, comb(n+k*j, j));
+        if(k < C) continue;
+
+        x = add(x, mul(mul(c, dp[j-1][i-j*k]), invfact[k]));
+      }
+      dp[j][i] = x;
+    }
+  }
+
+  cout << dp[B][N] << endl;
+
+  return 0;
 }
