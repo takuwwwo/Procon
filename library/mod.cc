@@ -55,6 +55,9 @@ void make_invfact(ll n){
     }
 }
 
+ll perm(ll n, ll k){
+    return mul(fact[n], invfact[n-k]);
+}
 
 ll comb(ll n, ll k){
     return mul(mul(fact[n], invfact[n-k]), invfact[k]);
