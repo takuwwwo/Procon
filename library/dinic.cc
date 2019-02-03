@@ -1,4 +1,4 @@
-#define MAX_V 100
+#define MAX_V 200
 #define INF LONG_LONG_MAX
 
 // 行き先、容量、逆辺(反対側の辺)
@@ -41,11 +41,8 @@ ll dfs(int v, int t, ll f){
             ll d = dfs(e.to, t, min(f, e.cap));
             if(d > 0){
                 e.cap -= d;
-                if(d > 0){
-                    e.cap -= d;
-                    G[e.to][e.rev].cap += d;
-                    return d;
-                }
+                G[e.to][e.rev].cap += d;
+                return d;
             }
         }
     }
