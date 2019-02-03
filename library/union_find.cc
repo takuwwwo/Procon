@@ -1,11 +1,11 @@
 #define MAX_N 100000
 int par[MAX_N];
-int rank[MAX_N];
+int myrank[MAX_N];
 
 void init(int n){
   for(int i = 0; i < n; i++){
     par[i] = i;
-    rank[i] = 0;
+    myrank[i] = 0;
   }
 }
 
@@ -25,12 +25,12 @@ void unite(int x, int y){
   y = find(y);
   if(x == y)  return;
 
-  if(rank[x] < rank[y]){
+  if(myrank[x] < myrank[y]){
     par[x] = y;
   }
   else{
     par[y] = x;
-    if(rank[x] == rank[y])  rank[x]++;
+    if(myrank[x] == myrank[y])  myrank[x]++;
   }
 }
 
