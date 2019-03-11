@@ -50,6 +50,7 @@ ll dfs(int v, int t, ll f){
 }
 
 
+// sからtに水を流す
 ll max_flow(int s, int t){
     ll flow = 0;
     for(;;){

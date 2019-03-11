@@ -2,9 +2,7 @@ typedef complex<double> P;
 
 const P I(0, 1);
 
-typedef complex<double> P;
 const double pi = 4.0*atan(1.0);
-const P I(0, 1);
 
 void *fft(P f[], int n, int sign){
   if (n==1){
