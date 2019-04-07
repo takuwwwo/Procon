@@ -1,3 +1,5 @@
+
+#define MAX_N 210000
 template<typename T>
 class SegTree{
 public:
@@ -26,7 +28,7 @@ public:
     // [a, b)の最小値を求める。
     // kは節点の番号、l, rはその節点が[l, r)に対応づいていることを表す。
     // query(a, b, 0, 0, n)で外からは呼び出す。
-    ll query(int a, int b, int k, int l, int r) {
+private: T query(int a, int b, int k, int l, int r) {
         if (r <= a || b <= l) {
             return (1LL<<31)-1;
         }
@@ -38,5 +40,9 @@ public:
             ll vr = query(a, b, k * 2 + 2, (l + r) / 2, r);
             return min(vl, vr);
         }
+    }
+    // [a, b)の最小値を求める。
+public: T query(int a, int b){
+        return query(a, b, 0, 0, this->n);
     }
 };
