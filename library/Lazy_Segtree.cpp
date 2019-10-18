@@ -26,6 +26,11 @@ typedef long long ll;
 typedef pair<ll, ll> P;
 
 // 0-index
+/**
+ *
+ * @tparam T0  値配列の型
+ * @tparam T1  遅延配列の型
+ */
 template <class T0, class T1>
 class LazySegmentTree{
 private:
@@ -77,6 +82,16 @@ public:
     using G = function<T0(T0, T1)>;  G g;
     using P = function<T1(T1, int)>; P p;
 
+    /**
+     *
+     * @param v   初期状態
+     * @param f0  値配列に対する操作(T0の演算)
+     * @param u0  値配列に対する単位元(T0の単位元)
+     * @param f1  遅延配列に対する操作(T1の演算)
+     * @param u1  遅延配列に対する単位元(T1の単位元)
+     * @param g   遅延配列の値を値配列に反映
+     * @param p   遅延配列の値を値配列に反映させる際の区間の長さを考慮した前処理
+     */
     LazySegmentTree(vector<ll> v, F0 f0, T0 u0, F1 f1, T1 u1, G g, P p):
             sz(v.size()), f0(f0), u0(u0), f1(f1), u1(u1), g(g), p(p){
         int sz = v.size();
