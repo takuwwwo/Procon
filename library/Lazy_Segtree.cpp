@@ -108,6 +108,7 @@ public:
         }
     }
 
+
     void update(int a, int b, T1 x){
         update(a, b, x, 0, 0, n);
     }
@@ -116,6 +117,7 @@ public:
         update(a, a+1, x);
     }
 
+    // [a, b)にxを作用
     T0 query(int a, int b){
         return query(a, b, 0, 0, n);
     }
