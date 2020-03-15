@@ -1,64 +1,109 @@
-typedef long long ll;
-typedef pair<int, int> P;
+class modInt{
+    ll value;
+    static const ll mod = 1000000007;
 
-const ll mod = 1000000007;
-ll fact[200200];
-ll invfact[200200];
+public:
+    modInt(ll x): value{x % mod}{}
 
-inline ll take_mod(ll a){
-    return (a % mod + mod) % mod;
-}
-
-inline ll add(ll a, ll b){
-    return take_mod(a+b);
-}
-
-inline ll sub(ll a, ll b){
-    return take_mod(a-b);
-}
-
-
-inline ll mul(ll a, ll b){
-    return take_mod(a * b);
-}
-
-inline ll pow(ll x, ll n){
-    ll res = 1LL;
-    while(n > 0){
-        if(n & 1) res = mul(res, x);
-        x = mul(x, x);
-        n >>= 1;
+    inline modInt& operator+=(modInt x){
+        value = (value + x.value) % mod;
+        return *this;
     }
-    return res;
-}
 
-ll mod_inv(ll x){
-    return pow(x, mod-2);
-}
-
-// nは上限
-void make_fact(ll n){
-    fact[0] = 1;
-    ll res = 1;
-    for(int i = 1; i <= n; i++){
-        fact[i] = res;
-        res = mul(res, i+1);
+    inline modInt& operator-=(modInt x){
+        value = (value + mod - x.value) % mod;
+        return *this;
     }
-}
 
-// nは上限
-void make_invfact(ll n){
-    invfact[0] = 1;
-    invfact[n] = mod_inv(fact[n]);
-    for(int i = n-1; i >= 1; i--){
-        invfact[i] = mul(invfact[i + 1], i + 1);
+    inline modInt& operator*=(modInt x){
+        value = (value * x.value) % mod;
+        return *this;
     }
+
+
+    inline modInt operator/=(modInt x){
+        *this *= x.inv();
+        return *this;
+    }
+
+    inline modInt pow(modInt x, int n){
+        modInt res = modInt(1LL);
+        while(n > 0){
+            if(n & 1)   res *= x;
+            x *= x;
+            n >>= 1;
+        }
+        return res;
+    }
+
+    inline modInt inv(){
+        modInt res = pow(value, mod-2);
+        return res;
+    }
+
+    inline ll get(){
+        return value;
+    }
+};
+
+modInt operator+(modInt x, modInt y){
+    return x += y;
 }
 
-ll perm(ll n, ll k){
-    return mul(fact[n], invfact[n-k]);
+modInt operator-(modInt x, modInt y){
+    return x -= y;
 }
 
-ll comb(ll n, ll k){
-    return mul(mul(fact[n], invfact[n-k]), invfact[k]);
+modInt operator*(modInt x, modInt y){
+    return x *= y;
 }
+
+modInt operator/(modInt x, modInt y){
+    return x /= y;
+}
+
+ostream& operator<<(ostream& os, modInt x){
+    return os << x.get();
+}
+
+
+class modIntCombinations{
+    vector<modInt> factArray;
+
+    void make_fact(ll x){
+        for(auto i = factArray.size(); i <= x+1; i++){
+            modInt y = factArray[i-1] * i;
+            factArray.push_back(y);
+        }
+    }
+
+public:
+    modIntCombinations(){
+        factArray.emplace_back(1);
+    }
+
+    modInt fact(ll x){
+        if(factArray.size() < x+1){
+            make_fact(x);
+        }
+        return factArray[x];
+    }
+
+    modInt comb(ll n, ll k){
+        if(n < k){
+            return modInt{0};
+        }
+        else{
+            return fact(n) / fact(k) / fact(n - k);
+        }
+    }
+
+    modInt perm(ll n, ll k){
+        if(n < k){
+            return modInt{0};
+        }
+        else{
+            return fact(n) / fact(k);
+        }
+    }
+};
