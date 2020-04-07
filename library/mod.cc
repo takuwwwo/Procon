@@ -3,7 +3,7 @@ class modInt{
     static const ll mod = 1000000007;
 
 public:
-    modInt(ll x): value{x % mod}{}
+    modInt(ll x=0): value{x % mod}{}
 
     inline modInt& operator+=(modInt x){
         value = (value + x.value) % mod;
